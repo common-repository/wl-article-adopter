@@ -1,0 +1,440 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-20 18:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: index.php:49
+msgid ""
+"Article Adopter: You are not currently connected to the article database "
+"server."
+msgstr ""
+
+#: index.php:70
+msgid "WP-Cron hasn't updated articles for an hour. Updating now."
+msgstr ""
+
+#: index.php:81 index.php:1282
+msgid "Article Database"
+msgstr ""
+
+#: index.php:112
+msgid "Could not get tags from shared article server: "
+msgstr ""
+
+#: index.php:134
+#, php-format
+msgid "Updated shared article tags at %s"
+msgstr ""
+
+#: index.php:253 index.php:391 lib/aa-list-table.php:123
+msgid "Subscribe"
+msgstr ""
+
+#: index.php:254 index.php:392 lib/aa-list-table.php:122
+msgid "Unsubscribe"
+msgstr ""
+
+#: index.php:313 index.php:331
+msgid "Tag"
+msgstr ""
+
+#: index.php:316 index.php:334
+msgid "Subscribed"
+msgstr ""
+
+#: index.php:319 index.php:337
+msgid "Menu"
+msgstr ""
+
+#: index.php:378 index.php:379 index.php:1179
+msgid "Yes"
+msgstr ""
+
+#: index.php:378 index.php:379 index.php:1180
+msgid "No"
+msgstr ""
+
+#: index.php:515
+msgid "Shared Article"
+msgstr ""
+
+#: index.php:520 index.php:1185
+msgid "Share this article"
+msgstr ""
+
+#: index.php:546
+msgid "Update already in progress."
+msgstr ""
+
+#: index.php:568
+msgid "Could not get updates: Not connected"
+msgstr ""
+
+#: index.php:575
+#, php-format
+msgid ""
+"Getting updates. Last update was %s -- will fetch up to %d new articles and "
+"updates. "
+msgstr ""
+
+#: index.php:587
+msgid "Error getting updates from shared article server: "
+msgstr ""
+
+#: index.php:606
+#, php-format
+msgid "Error while updating article with remote id %d - stopping the update. "
+msgstr ""
+
+#: index.php:623
+#, php-format
+msgid "%d articles updated at %s"
+msgstr ""
+
+#: index.php:641
+#, php-format
+msgid "Tag %s synched to %s"
+msgstr ""
+
+#: index.php:645
+#, php-format
+msgid "Error under subscription to tag %s:"
+msgstr ""
+
+#: index.php:655
+#, php-format
+msgid "Error under subscription to tag %s: No response"
+msgstr ""
+
+#: index.php:657
+#, php-format
+msgid "Error under subscription to tag %s id %d:"
+msgstr ""
+
+#: index.php:779
+msgid ""
+"Could not create temporary upload directory for importing featured images of "
+"shared articles"
+msgstr ""
+
+#: index.php:848
+#, php-format
+msgid "Attaching featured image to post %d failed; invalid filename '%s'"
+msgstr ""
+
+#: index.php:854
+#, php-format
+msgid "Attaching featured image to post %d failed; input not an url"
+msgstr ""
+
+#: index.php:871
+#, php-format
+msgid "Couldn't download featured image to post %d"
+msgstr ""
+
+#: index.php:875
+#, php-format
+msgid "Can't attach featured image to post: %s not an image"
+msgstr ""
+
+#: index.php:883
+#, php-format
+msgid "Attaching featured image '%s' to post: Could not get upload directory"
+msgstr ""
+
+#: index.php:891
+#, php-format
+msgid "Attaching featured image %s to post: File exists"
+msgstr ""
+
+#: index.php:934
+msgid "Not subscribed"
+msgstr ""
+
+#: index.php:940
+#, php-format
+msgid "Unsubscribing to post %d"
+msgstr ""
+
+#: index.php:991
+#, php-format
+msgid "Unsharing trashed article %d '%s' "
+msgstr ""
+
+#: index.php:1035
+#, php-format
+msgid "Updating export of shared article %d '%s'"
+msgstr ""
+
+#: index.php:1037
+#, php-format
+msgid "Sharing article %d '%s'"
+msgstr ""
+
+#: index.php:1041
+#, php-format
+msgid "Unsharing article %d '%s'"
+msgstr ""
+
+#: index.php:1104
+msgid "Problems updating remote of shared article: "
+msgstr ""
+
+#: index.php:1134
+msgid "Shared article already unexported."
+msgstr ""
+
+#: index.php:1138
+msgid "Problems deleting shared article: "
+msgstr ""
+
+#: index.php:1149
+#, php-format
+msgid ""
+"This article is originally by %s from %s . Edits will be overwritten by data "
+"from the repository."
+msgstr ""
+
+#: index.php:1156
+msgid ""
+"You are not currently connected to the library, so synchronization will not "
+"happen."
+msgstr ""
+
+#: index.php:1176
+msgid "Are you sure?"
+msgstr ""
+
+#: index.php:1177
+msgid ""
+"Before sharing, please ensure that you own the copyright or have permission "
+"to share the material in the article, including any featured image. The "
+"responsibilty for ensuring this lies entirely on the actor sharing the "
+"article."
+msgstr ""
+
+#: index.php:1184
+msgid ""
+"Selecting the checkbox below will export this article to the shared article "
+"database, enabling other cooperating sites to 'adopt' it"
+msgstr ""
+
+#: index.php:1186
+msgid ""
+"Please ensure you own the copyright or have permission to share all content "
+"in this article"
+msgstr ""
+
+#: index.php:1190
+msgid ""
+"Since this post has an attached featured image, this too will be shared and "
+"downloaded by clients if shared"
+msgstr ""
+
+#: index.php:1202
+msgid "Sharing the article"
+msgstr ""
+
+#: index.php:1264
+#, php-format
+msgid "Article with id %d couldn't be '%s'-ed due to an error"
+msgstr ""
+
+#: index.php:1288
+#, php-format
+msgid "Showing articles tagged '%s . '"
+msgstr ""
+
+#: index.php:1296
+msgid "search"
+msgstr ""
+
+#: index.php:1301
+msgid "All categories"
+msgstr ""
+
+#: index.php:1334
+msgid "Getting updates from wp-cron."
+msgstr ""
+
+#: index.php:1342
+msgid "Every ten minutes"
+msgstr ""
+
+#: index.php:1445 index.php:1446 index.php:1447
+msgid "Shared Article Tag"
+msgstr ""
+
+#: index.php:1483
+#, php-format
+msgid "Resetting last updated to '%s' "
+msgstr ""
+
+#: index.php:1538
+msgid "Getting updates on options save"
+msgstr ""
+
+#: index.php:1544
+#, php-format
+msgid "Updated %d articles"
+msgstr ""
+
+#: index.php:1594
+msgid "Article Adopter"
+msgstr ""
+
+#: index.php:1602
+msgid "Options"
+msgstr ""
+
+#: index.php:1603
+msgid "Log"
+msgstr ""
+
+#: index.php:1612
+msgid "Server"
+msgstr ""
+
+#: index.php:1613
+msgid "URL to article repository"
+msgstr ""
+
+#: index.php:1616
+msgid "Username"
+msgstr ""
+
+#: index.php:1617
+msgid "Username at article repository"
+msgstr ""
+
+#: index.php:1622
+msgid "Import to local user"
+msgstr ""
+
+#: index.php:1626
+msgid "This local user will be owner of all imported articles"
+msgstr ""
+
+#: index.php:1630
+msgid "Text to add to the bottom of the articles"
+msgstr ""
+
+#: index.php:1634
+msgid "Add this text to the bottom of all articles adopted."
+msgstr ""
+
+#: index.php:1634
+msgid "The text ORIGIN will be replaced with originating article"
+msgstr ""
+
+#: index.php:1638
+msgid "Connection Key"
+msgstr ""
+
+#: index.php:1638
+msgid " Enter server and username to generate key"
+msgstr ""
+
+#: index.php:1648
+msgid "Connect"
+msgstr ""
+
+#: index.php:1649
+msgid "Generate New Key"
+msgstr ""
+
+#: index.php:1654
+msgid "Generating a new key"
+msgstr ""
+
+#: index.php:1655
+msgid "Are you certain?"
+msgstr ""
+
+#: index.php:1656
+msgid ""
+"Generating a new key will invalidate your connection; and you will have to "
+"register the new connection key at the server."
+msgstr ""
+
+#: index.php:1661
+msgid "OK, go ahead"
+msgstr ""
+
+#: index.php:1672
+msgid "Last update was"
+msgstr ""
+
+#: index.php:1674
+msgid "Reset last-updated timestamp and re-synchronize articles"
+msgstr ""
+
+#: index.php:1677
+msgid "Logfile location:"
+msgstr ""
+
+#: index.php:1696
+msgid "Connecting to server"
+msgstr ""
+
+#: index.php:1699
+msgid "Could not connect - check configuration"
+msgstr ""
+
+#: index.php:1705
+msgid "Could not connect. Server responded"
+msgstr ""
+
+#: index.php:1711
+msgid "You are now connected"
+msgstr ""
+
+#: index.php:1712
+msgid "Connected."
+msgstr ""
+
+#: index.php:1730
+msgid "Could not get domain from site home! Is it a valid URL?"
+msgstr ""
+
+#: index.php:1730
+msgid "Could not create key"
+msgstr ""
+
+#: index.php:1749
+msgid ""
+"Could not connect - please set allow_url_fopen to true in php.ini on client"
+msgstr ""
+
+#: index.php:1901
+msgid "Error connecting: "
+msgstr ""
+
+#: index.php:1908
+msgid "OK! You are now connected"
+msgstr ""
+
+#. Name of the plugin
+msgid "WL Article Adopter"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The client for Shared Article Repository plugin, a database of shared "
+"articles for participating websites"
+msgstr ""
+
+#. Author of the plugin
+msgid "Iver Odin Kvello"
+msgstr ""

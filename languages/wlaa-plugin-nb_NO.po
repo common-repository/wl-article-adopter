@@ -1,0 +1,475 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WL Article Adopter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-20 18:17+0000\n"
+"PO-Revision-Date: 2017-04-20 18:19+0000\n"
+"Last-Translator: muadmin <support@wp-hosting.no>\n"
+"Language-Team: Norwegian (Bokmål)\n"
+"Language: nb-NO\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: index.php:112
+msgid "Could not get tags from shared article server: "
+msgstr "Kunne ikke hente tags fra artikkeldatabaseserver:"
+
+#: index.php:134
+#, php-format
+msgid "Updated shared article tags at %s"
+msgstr "Oppdaterte delte artikkel-tags ved %s"
+
+#: index.php:313 index.php:331
+msgid "Tag"
+msgstr "Stikkord"
+
+#: index.php:316 index.php:334
+msgid "Subscribed"
+msgstr "Abonnert"
+
+#: index.php:319 index.php:337
+msgid "Menu"
+msgstr "I menyen"
+
+#: index.php:641
+#, php-format
+msgid "Tag %s synched to %s"
+msgstr "Stikkord %s synkronisert opp til %s"
+
+#: index.php:645
+#, php-format
+msgid "Error under subscription to tag %s:"
+msgstr "Feil under abonnement på stikkord %s:"
+
+#: index.php:655
+#, php-format
+msgid "Error under subscription to tag %s: No response"
+msgstr "Feil under abonnement på stikkord %s: Ikke noe svar"
+
+#: index.php:657
+#, php-format
+msgid "Error under subscription to tag %s id %d:"
+msgstr ""
+"Feil under abonnement på artikkel ved stikkord %s artikkelid på server %d"
+
+#: index.php:1445 index.php:1446 index.php:1447
+msgid "Shared Article Tag"
+msgstr "Delt artikkel-stikkord"
+
+#: index.php:49
+msgid ""
+"Article Adopter: You are not currently connected to the article database "
+"server."
+msgstr "Article Adopter: Du er ikke tilkoblet artikkel-database serveren"
+
+#: index.php:70
+msgid "WP-Cron hasn't updated articles for an hour. Updating now."
+msgstr "WP-Cron har ikke oppdatert artikler på over en time. Oppdaterer nå."
+
+#: index.php:81 index.php:1282
+msgid "Article Database"
+msgstr "Artikkeldatabase"
+
+#: index.php:253 index.php:391 lib/aa-list-table.php:123
+msgid "Subscribe"
+msgstr "Abonner"
+
+#: index.php:254 index.php:392 lib/aa-list-table.php:122
+msgid "Unsubscribe"
+msgstr "Av-abonner"
+
+#: index.php:378 index.php:379 index.php:1179
+msgid "Yes"
+msgstr "Ja"
+
+#: index.php:378 index.php:379 index.php:1180
+msgid "No"
+msgstr "Nei"
+
+#: index.php:515
+msgid "Shared Article"
+msgstr "Delt artikkel"
+
+#: index.php:520 index.php:1185
+msgid "Share this article"
+msgstr "Del denne artikkelen"
+
+#: index.php:546
+msgid "Update already in progress."
+msgstr "Oppdatering allerede i gang."
+
+#: index.php:568
+msgid "Could not get updates: Not connected"
+msgstr ""
+"Kunne ikke hente oppdateringer: Nettstedet er ikke i samband med "
+"artikkeldatabaseserver"
+
+#: index.php:575
+#, php-format
+msgid ""
+"Getting updates. Last update was %s -- will fetch up to %d new articles and "
+"updates. "
+msgstr ""
+"Henter oppdateringer. Sist oppdatering var %s - vil nå hente opp til %d nye "
+"artikler og oppdateringer."
+
+#: index.php:587
+msgid "Error getting updates from shared article server: "
+msgstr "Feil unter henting av oppdateringer fra delt artikkeldatabase-server:"
+
+#: index.php:606
+#, php-format
+msgid "Error while updating article with remote id %d - stopping the update. "
+msgstr ""
+"Feil under oppdatering av artikkel med fjern-id %d -  oppdatering stoppes"
+
+#: index.php:623
+#, php-format
+msgid "%d articles updated at %s"
+msgstr "%d artikler oppdatert ved tidspunkt %s"
+
+#: index.php:779
+msgid ""
+"Could not create temporary upload directory for importing featured images of "
+"shared articles"
+msgstr ""
+"Klarte ikke å opprette midlertidig opplastingskatalog for å importere bilder "
+"fra delt artikkel"
+
+#: index.php:848
+#, php-format
+msgid "Attaching featured image to post %d failed; invalid filename '%s'"
+msgstr ""
+"Klarte ikke å tilkoble hovedbilde til artikkel %d - filnavnet '%s' er ugyldig"
+
+#: index.php:854
+#, php-format
+msgid "Attaching featured image to post %d failed; input not an url"
+msgstr ""
+"Klarte ikke å tilkoble hovedbilde til artikkel %d - input er ikke en url"
+
+#: index.php:871
+#, php-format
+msgid "Couldn't download featured image to post %d"
+msgstr "Klarte ikke å laste ned hovedbilde til artikkel %d"
+
+#: index.php:875
+#, php-format
+msgid "Can't attach featured image to post: %s not an image"
+msgstr "Kan ikke tilkoble hovedbilde til post %d - %s er ikke noe bilde"
+
+#: index.php:883
+#, php-format
+msgid "Attaching featured image '%s' to post: Could not get upload directory"
+msgstr ""
+"Under tilkobling av hovedbilde %s til artikkel: Kunne ikke finne "
+"opplastingskatalog"
+
+#: index.php:891
+#, php-format
+msgid "Attaching featured image %s to post: File exists"
+msgstr ""
+"Under tilkobling av hovedbilde %s til artikkel: Filen eksisterer allerede"
+
+#: index.php:934
+msgid "Not subscribed"
+msgstr "Ikke abonnert på"
+
+#: index.php:940
+#, php-format
+msgid "Unsubscribing to post %d"
+msgstr "Av-abonnerer på artikkel %d"
+
+#: index.php:991
+#, php-format
+msgid "Unsharing trashed article %d '%s' "
+msgstr "Av-deler artikkel %d med navn '%s' som er lagt i søppel"
+
+#: index.php:1035
+#, php-format
+msgid "Updating export of shared article %d '%s'"
+msgstr "Oppdaterer eksportering av artikkel %d '%s'"
+
+#: index.php:1037
+#, php-format
+msgid "Sharing article %d '%s'"
+msgstr "Deler artikkel %d '%s'"
+
+#: index.php:1041
+#, php-format
+msgid "Unsharing article %d '%s'"
+msgstr "Av-deler artikkel %d '%s'"
+
+#: index.php:1104
+msgid "Problems updating remote of shared article: "
+msgstr "Problemer under oppdatering av delt artikkel:"
+
+#: index.php:1134
+msgid "Shared article already unexported."
+msgstr "Delt artikkel er allerede av-eksportert."
+
+#: index.php:1138
+msgid "Problems deleting shared article: "
+msgstr "Problemer under sletting av delt artikkel:"
+
+#: index.php:1149
+#, php-format
+msgid ""
+"This article is originally by %s from %s . Edits will be overwritten by data "
+"from the repository."
+msgstr ""
+"Denne artikkelen er opprinelig av %s fra %s. Redigeringer gjort her vil bli "
+"overskrevet av data fra repositoriet."
+
+#: index.php:1156
+msgid ""
+"You are not currently connected to the library, so synchronization will not "
+"happen."
+msgstr ""
+"Du er for tiden ikke koblet til biblioteket, så synkronisering vil ikke skje"
+
+#: index.php:1176
+msgid "Are you sure?"
+msgstr "Er du sikker?"
+
+#: index.php:1177
+msgid ""
+"Before sharing, please ensure that you own the copyright or have permission "
+"to share the material in the article, including any featured image. The "
+"responsibilty for ensuring this lies entirely on the actor sharing the "
+"article."
+msgstr ""
+"Før du deler, vennligst sørg for at du enten eier copyright eller har "
+"tillatelse til å dele alt materiale i artikkelen, inklusive hovedbildet. "
+"Ansvaret for dette ligger på vedkommende som deler artikkelen."
+
+#: index.php:1184
+msgid ""
+"Selecting the checkbox below will export this article to the shared article "
+"database, enabling other cooperating sites to 'adopt' it"
+msgstr ""
+"Å velge avhukingsboksen under vil eksportere denne artikkelen til den delte "
+"artikkel-databaseserveren, som vil tillate andre samarbeidende nettsteder å "
+"'adoptere' den."
+
+#: index.php:1186
+msgid ""
+"Please ensure you own the copyright or have permission to share all content "
+"in this article"
+msgstr ""
+"Vennligst sørg for at du eier copyright eller har tillatelse til å dele alt "
+"innhold i denne artikkelen"
+
+#: index.php:1190
+msgid ""
+"Since this post has an attached featured image, this too will be shared and "
+"downloaded by clients if shared"
+msgstr ""
+"Siden denne artikkelen har et tilknyttet hovedbilde, vil dette også bli delt "
+"og nedlastet av klienter hvis artikkelen deles."
+
+#: index.php:1202
+msgid "Sharing the article"
+msgstr "Deling av artikkel"
+
+#: index.php:1264
+#, php-format
+msgid "Article with id %d couldn't be '%s'-ed due to an error"
+msgstr ""
+"Artikkelen med id %d kunne ikke bli gjort operasjon '%s' på på grunn av en "
+"feil"
+
+#: index.php:1288
+#, php-format
+msgid "Showing articles tagged '%s . '"
+msgstr "Viser artikler merket '%s'."
+
+#: index.php:1296
+msgid "search"
+msgstr "Søk"
+
+#: index.php:1301
+msgid "All categories"
+msgstr "Alle kategorier"
+
+#: index.php:1334
+msgid "Getting updates from wp-cron."
+msgstr "Henter oppdateringer via WP-Cron"
+
+#: index.php:1342
+msgid "Every ten minutes"
+msgstr "Hvert tiende minutt"
+
+#: index.php:1483
+#, php-format
+msgid "Resetting last updated to '%s' "
+msgstr "Resetter siste oppdatering til '%s'"
+
+#: index.php:1538
+msgid "Getting updates on options save"
+msgstr "Henter oppdateringer fordi innstillingene ble lagret"
+
+#: index.php:1544
+#, php-format
+msgid "Updated %d articles"
+msgstr "Oppdaterte %d artikler"
+
+#: index.php:1594
+msgid "Article Adopter"
+msgstr "Article Adopter"
+
+#: index.php:1602
+msgid "Options"
+msgstr "Instillinger"
+
+#: index.php:1603
+msgid "Log"
+msgstr "Logg"
+
+#: index.php:1612
+msgid "Server"
+msgstr "Server"
+
+#: index.php:1613
+msgid "URL to article repository"
+msgstr "URL til artikkeldatabasen"
+
+#: index.php:1616
+msgid "Username"
+msgstr "Brukernavn"
+
+#: index.php:1617
+msgid "Username at article repository"
+msgstr "Brukernavn på artikkeldatabaseserver"
+
+#: index.php:1622
+msgid "Import to local user"
+msgstr "Importer til denne lokale brukeren"
+
+#: index.php:1626
+msgid "This local user will be owner of all imported articles"
+msgstr "Denne lokale brukeren vil stå som eier av alle importerte artikler."
+
+#: index.php:1630
+msgid "Text to add to the bottom of the articles"
+msgstr "Bunntekst til artikler"
+
+#: index.php:1634
+msgid "Add this text to the bottom of all articles adopted."
+msgstr "Tekst som skal legges til i bunn av alle importerte artikler"
+
+#: index.php:1634
+msgid "The text ORIGIN will be replaced with originating article"
+msgstr "Ordet 'ORIGIN' vil erstattes med opprinnelig artikkel"
+
+#: index.php:1638
+msgid "Connection Key"
+msgstr "Tilkoblingsnøkkel"
+
+#: index.php:1638
+msgid " Enter server and username to generate key"
+msgstr "Legg til server og brukernavn for å kunne generere nøkkel"
+
+#: index.php:1648
+msgid "Connect"
+msgstr "Koble til"
+
+#: index.php:1649
+msgid "Generate New Key"
+msgstr "Generer ny nøkkel"
+
+#: index.php:1654
+msgid "Generating a new key"
+msgstr "Generering av ny nøkkel"
+
+#: index.php:1655
+msgid "Are you certain?"
+msgstr "Er du sikker?"
+
+#: index.php:1656
+msgid ""
+"Generating a new key will invalidate your connection; and you will have to "
+"register the new connection key at the server."
+msgstr ""
+"Å generere en ny nøkkel vil invalidere forbindelsen din, og du vil måtte "
+"registrere den nye nøkkelen på server på nytt."
+
+#: index.php:1661
+msgid "OK, go ahead"
+msgstr "OK, sett i gang"
+
+#: index.php:1672
+msgid "Last update was"
+msgstr "Sist oppdatering var"
+
+#: index.php:1674
+msgid "Reset last-updated timestamp and re-synchronize articles"
+msgstr "Nullstill sist-oppdatert datostempel og resynkroniser artikler"
+
+#: index.php:1677
+msgid "Logfile location:"
+msgstr "Sti til loggfil:"
+
+#: index.php:1696
+msgid "Connecting to server"
+msgstr "Kobler til server"
+
+#: index.php:1699
+msgid "Could not connect - check configuration"
+msgstr "Kunne ikke koble til - sjekk konfigurasjonen"
+
+#: index.php:1705
+msgid "Could not connect. Server responded"
+msgstr "Kunne ikke koble til. Server svarte: "
+
+#: index.php:1711
+msgid "You are now connected"
+msgstr "Du er nå tilkoblet."
+
+#: index.php:1712
+msgid "Connected."
+msgstr "Tilkoblet."
+
+#: index.php:1730
+msgid "Could not get domain from site home! Is it a valid URL?"
+msgstr ""
+"Kunne ikke finne domenet fra serverinstillingene - er 'site home' en gyldig "
+"URL?\n"
+
+#: index.php:1730
+msgid "Could not create key"
+msgstr "Kunne ikke skape nøkkelen"
+
+#: index.php:1749
+msgid ""
+"Could not connect - please set allow_url_fopen to true in php.ini on client"
+msgstr ""
+"Kunne ikke koble til - vennligst sørg for at allow_url_fopen er sann i php."
+"ini på klienten"
+
+#: index.php:1901
+msgid "Error connecting: "
+msgstr "Feil under tilkobling"
+
+#: index.php:1908
+msgid "OK! You are now connected"
+msgstr "OK! Du er nå tilkoblet."
+
+#. Name of the plugin
+msgid "WL Article Adopter"
+msgstr "WL Article Adopter"
+
+#. Description of the plugin
+msgid ""
+"The client for Shared Article Repository plugin, a database of shared "
+"articles for participating websites"
+msgstr ""
+"Klienten til Shared Article Repository plugin, en database av delte artikler "
+"for deltagende nettsteder"
+
+#. Author of the plugin
+msgid "Iver Odin Kvello"
+msgstr "Iver Odin Kvello"
